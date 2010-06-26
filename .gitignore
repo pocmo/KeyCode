@@ -1,0 +1,8 @@
+#
+# Git Ignore for Yaaic
+#
+
+bin/
+gen/
+R.java
+
