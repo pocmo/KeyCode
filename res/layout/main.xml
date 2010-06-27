@@ -6,12 +6,19 @@
     android:layout_height="fill_parent">
 	<TextView
 		android:id="@+id/keycode" 
-    	android:layout_height="wrap_content"
+    	android:layout_height="fill_parent"
 		android:layout_width="fill_parent"
     	android:layout_weight="1"
     	android:text=""
     	android:textSize="95px"
     	android:gravity="center" />
+   	<EditText
+   		android:id="@+id/log"
+   		android:layout_width="fill_parent"
+   		android:layout_height="fill_parent"
+   		android:editable="false"
+   		android:enabled="false"
+   		android:layout_weight="2" />
 	<EditText
 		android:id="@+id/input"
 		android:layout_width="fill_parent"
