@@ -1,1 +1,7 @@
 An Android application for displaying the KeyCodes of pressed keys.
+
+This application is mostly for debugging purposes.
+
+Non default behavior found up to now:
+ - The Enter key on the Motorola Milestone does only send a key down event (KeyEvent.ACTION_DOWN) and
+   no key up event (KeyEvent.ACTION_UP).
